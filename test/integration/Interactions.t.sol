@@ -43,5 +43,8 @@ contract Interactions is StdCheats, Test {
         subscriptionId = config.subscriptionId;
         gasLane = config.gasLane;
         interval = config.interval;
+        entranceFee = config.entranceFee;
+        callbackGasLimit = config.callbackGasLimit;
+        vrfCoordinator = config.vrfCoordinator;
     }
 }
